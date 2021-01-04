@@ -16,6 +16,13 @@ layout: default
       <h1 data-toc-skip>{{ page.title }}</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
+        <div style="text-align: center;">
+          <a href="http://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+            target="_blank">
+            <img
+              src="http://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+          </a>
+        </div>
         <!-- Published date and author -->
         <div>
           {% include timeago.html date=page.date tooltip=true %}
