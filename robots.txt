@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /norobots/
+
+Sitemap: https://gon125.github.io/sitemap.xml
